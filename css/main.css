@@ -13,7 +13,10 @@
 
 .jumbotron{
   color: black;
-  background-image: url("img/YEWA.JPG");
+  background-image: url("../img/HOFI.JPG");
+  background-size: 100%;
+  background-position: bottom;
+  opacity: 50%;
 }
 
 /* .headerNav{
@@ -67,14 +70,23 @@ p{
 }
 
 .card{
-  background-color: gray;
-  margin: 18px;
+  background-color: black;
+  margin: 16px auto 16px auto;
   padding: 20px;
+  color: white;
+}
+
+.imgTitle{
+  text-decoration: underline;
 }
 
 img{
   border-style: solid;
-  border-color: yellow;
+  border-color: #c0d5ff;
+}
+
+img hover{
+  opacity: 60%;
 }
 /*
 img{
@@ -101,6 +113,11 @@ footer{
   height: 50px;
   flex: 1;
   text-align: center;
+  padding-top: 20px;
+}
+
+#footerHR{
+  border-color: white;
 }
 
 .bottomLinks{
@@ -134,10 +151,11 @@ h3{
 }
 
 @media (min-width: 800px) {
+  .card{
+    margin: 16px;
+  }
   .card, img{
     max-width: 80vw;
-    align-items: center;
-    align-content: center;                 /*I can't figure out why the images won't center in single-column size */
   }
   .wrapper{
     grid-template-columns: repeat(2, 1fr);
@@ -145,6 +163,9 @@ h3{
 
 /*In a large screen make pictures smaller but in 3 columns*/
 @media (min-width: 1300px) {
+  .card{
+    margin: 16px;
+  }
   .card, img{
     max-width: 40vw;
   }
