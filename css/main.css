@@ -1,38 +1,26 @@
 
-/* header{
-  display: flex;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: white;
-  background-color: gray;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  border-bottom: double;
-} */
-
 .jumbotron{
   color: black;
   background-image: url("../img/HOFI.JPG");
   background-size: 100%;
   background-position: bottom;
-  opacity: 50%;
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 3px;
 }
-
-/* .headerNav{
-  justify-content: center;
-  background-color: black;
-  color: white;
-  border-style: solid;
-  border-color: white;
-  display: flex;
-  align-items: center;
-} */
 
 h1{
   padding-left: 18px;
   padding-right: 18px;
   justify-content: flex-start;
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+  text-shadow: 2px 2px white;
+}
+
+.lead{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
 }
 
 .headerLink{
@@ -43,12 +31,13 @@ h1{
 }
 
 body{
-  background-color: black;
+  background-color: #3d3d29;
   display: flex;
   flex-direction: column;              /*This makes the page content display vertically*/
   min-height: 100vh;                   /*This makes the footer visible*/
   flex-wrap: wrap;
   text-align: center;
+  font-family: 'Oxygen', sans-serif;
 }
 
 main{
@@ -62,45 +51,41 @@ p{
 }
 
 /*Photo Layout */
-
 .wrapper{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 100vw;
+  padding: 10px;
 }
 
 .card{
-  background-color: black;
+  background-color: #c2c2a3;
   margin: 16px auto 16px auto;
   padding: 20px;
-  color: white;
+  display: flex;
+  color: #1f1f14;
 }
 
 .imgTitle{
-  text-decoration: underline;
+  font-weight: bold;
+  color: inherit;
+  font-size: 1.3em;
 }
 
-img{
-  border-style: solid;
-  border-color: #c0d5ff;
+.card-text{
+  padding: 12px;
+  font-weight: light;
 }
 
-img hover{
-  opacity: 60%;
-}
-/*
-img{
-  border-style: solid;
-  border-color: white;
-  margin: 20px;
-  min-width: 40vw;
-  max-width: 80vw;
-  position: relative;
-} */
+.card-body{
+  justify-content: center;
+  }
 
-/* img:hover{
-  opacity: .7;
-} */
+.audioButton {
+  align-self: flex-end;
+  box-shadow: 3px 3px black;
+  font-weight: bold;
+}
 
 h4{
   flex-grow: 1;
@@ -120,10 +105,13 @@ footer{
   border-color: white;
 }
 
+.footerLinks{
+  justify-content: space-between;
+}
+
 .bottomLinks{
   display: inline-flex;
   flex-wrap: wrap;
-  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
   color: white;

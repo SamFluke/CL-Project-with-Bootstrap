@@ -1,13 +1,3 @@
-// on click event make page play sound  //
-// var x = document.getElementById("myAudio");
-//
-// function playAudio() {
-//     x.play();
-// }
-//
-// function pauseAudio() {
-//     x.pause();
-// }
 
 $(document).ready(function () {
   RunSetup();
@@ -17,7 +7,11 @@ function RunSetup() {
   $(".audioButton").on("click", function (event) {
     audios = {
       "sospBtn": $("#sospCall")[0],
-      "other": "aoasfd"
+      "yewaBtn": $("#yewaCall")[0],
+      "modoBtn": $("#modoCall")[0],
+      "grheBtn": $("#grheCall")[0],
+      "killBtn": $("#killCall")[0],
+      "pbgrBTN": $("#pbgrCall")[0],
     };
 
     var myAudio = audios[event.target.id];

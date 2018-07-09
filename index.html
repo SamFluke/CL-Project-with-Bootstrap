@@ -4,6 +4,7 @@
 
 <head>
     <title>Samantha Fluke Wildlife Photography</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
     <link rel="stylesheet" href="css\normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css\main.css">
@@ -16,17 +17,8 @@
     <div class="jumbotron">
       <h1 class="display-4"> Wildlife Photography</h1>
         <p class="lead">Bird Photos by Samantha Fluke</p>
-          <hr class="my-4">
-          <p class="lead">
-            <a class="btn btn-dark btn-lg" href="https://www.allaboutbirds.org/building-skills-the-4-keys-to-bird-identification/" role="button">Learn to ID Birds</a>
-          </p>
     </div>
 
-    <!-- <h1>Samantha Fluke - Bird Image Galley</h1>
-      <div class="headerNav">
-        <a class="headerLink" href="https://www.allaboutbirds.org/building-skills-the-4-keys-to-bird-identification/">Beginner's Guide - Learning to ID Birds </a>
-        <a class="headerLink" href="https://vynceta.imgur.com/all/">Link to My Photo Gallery</a>
-      </div> -->
   </header>
 
   <main>
@@ -36,74 +28,79 @@
       <div class="card">
         <img src="img/YEWA.JPG" class="card-img-top" alt="Yellow Warbler">
           <div class="card-body">
-            <h5 class="imgTitle">Yellow Warbler</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-light">Make This an Audio Link</a>
+            <a href="https://www.allaboutbirds.org/guide/Yellow_Warbler" target="_blank" class="imgTitle">Yellow Warbler</a>
+              <hr></hr>
+            <p class="card-text">Listen for Yellow Warblers singing when you’re in wet woods, thickets, or streamsides—they’re one of the most commonly heard warblers in spring and summer. Their song isn’t hard to learn—a tumbling series of whistles that sounds like sweet sweet sweet I’m so sweet. Look for them in the tops of willows and other small trees.</p>
+            <button id='yewaBtn' class="btn btn-light audioButton">Play / Pause Song</button>
           </div>
       </div>
 
       <div class="card">
         <img src="img/KILL.JPG" class="card-img-top" alt="Killdeer">
           <div class="card-body">
-            <h5 class="imgTitle">Kildeer</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-light">Make This an Audio Link</a>
+            <a href="https://www.allaboutbirds.org/guide/Killdeer" target="_blank" class="imgTitle">Killdeer</a>
+              <hr></hr>
+            <p class="card-text"> Look carefully over lawns, short-mown fields, and even parking lots, and listen for the far-carrying kill-deer. Though they're often found on dry land, you should also look for them on the edges of freshwater ponds and muddy lagoons.</p>
+            <button id='killBtn' class="btn btn-light audioButton">Play / Pause Song</button>
           </div>
       </div>
 
       <div class="card">
         <img src="img/GRHE.JPG" class="card-img-top" alt="Green Heron">
           <div class="card-body">
-            <h5 class="imgTitle">Green Heron</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-light">Make This an Audio Link</a>
+            <a href="https://www.allaboutbirds.org/guide/Green_Heron" target="_blank" class="imgTitle">Green Heron</a>
+              <hr></hr>
+            <p class="card-text">Green Herons tend to be near water edges, in shallow water, or concealed in vegetation. Visit a wetland and carefully scan the banks looking for a small, hunch-backed bird with a long, straight bill staring intently at the water. Their harsh skeow call is also a good clue. Their habit of often briefly unfolding their neck during flight helps make them recognizable, too.</p>
+            <button id='grheBtn' class="btn btn-light audioButton">Play / Pause Song</button>
           </div>
       </div>
 
       <div class="card">
         <img src="img/PBGR.JPG" class="card-img-top" alt="Pied-Billed Grebe">
           <div class="card-body">
-            <h5 class="imgTitle">Pied-Billed Grebe</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-light">Make This an Audio Link</a>
+            <a href="https://www.allaboutbirds.org/guide/Pied-billed_Grebe" target="_blank" class="imgTitle">Pied-Billed Grebe</a>
+              <hr></hr>
+            <p class="card-text">Pied-billed Grebes are widespread and fairly common in most of the U.S. and southern Canada.The distinctive very small body and comparatively large, blocky head is a good shape to look for. These birds spend a lot of time diving, so make several scans of a body of water before moving on.</p>
+            <button id='pbgrBtn' class="btn btn-light audioButton">Play / Pause Song</button>
           </div>
       </div>
 
       <div class="card">
         <img src="img/MODO.JPG" class="card-img-top" alt="Mourning Dove">
           <div class="card-body">
-            <h5 class="imgTitle">Mourning Dove</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-light">Make This an Audio Link</a>
+            <a href="https://www.allaboutbirds.org/guide/Mourning_Dove" target="_blank" class="imgTitle">Mourning Dove</a>
+              <hr></hr>
+            <p class="card-text">Look for Mourning Doves on telephone wires and similar perches throughout your neighborhood, or keep an eye on patches of bare ground, where the birds gather to stock up on seeds and grit.</p>
+            <button id='modoBtn' class="btn btn-light audioButton">Play / Pause Song</button>
           </div>
       </div>
 
-      <div class="card">
+      <div class="card text-center">
         <img src="img/SOSP.JPG" class="card-img-top" alt="Song Sparrow">
           <div class="card-body">
-            <h5 class="imgTitle">Song Sparrow</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button id='sospBtn' class="btn btn-light audioButton">Make This an Audio Link</button>
+            <a href="https://www.allaboutbirds.org/guide/Song_Sparrow" target="_blank" class="imgTitle">Song Sparrow</a>
+              <hr></hr>
+            <p class="card-text">In spring and summer, Song Sparrows are one of the most conspicuous of all sparrows. Males sing often, perching around eye level on exposed branches. Also watch for Song Sparrows moving along wetland edges, ducking into dense, low vegetation after short bursts of their distinctive, tail-pumping flight.</p>
+            <button id='sospBtn' class="btn btn-light audioButton">Play / Pause Song</button>
           </div>
       </div>
 
     </div>
 
     <div>
-      <ul>
-        <h3>Other Bird Id Page Links</h3>
-          <a class="bottomLinks" href="https://www.allaboutbirds.org/guide/Bald_Eagle" id="BAEA" target="_blank">Bald Eagle</a>
-          <a class="bottomLinks" href="https://www.allaboutbirds.org/guide/Eastern_Kingbird" id="EAKI" target="_blank">Eastern Kingbird</a>
-          <a class="bottomLinks" href="https://www.allaboutbirds.org/guide/Killdeer" id="KILL" target="_blank">Killdeer</a>
-          <a class="bottomLinks" href="https://www.allaboutbirds.org/guide/Gray_Catbird" id="GRCA" target="_blank">Gray Catbird</a>
-          <a class="bottomLinks" href="https://www.allaboutbirds.org/guide/Wood_Duck" id="WODU" target="_blank">Wood Duck</a>
-      </ul>
+
     </div>
   </main>
 
 
   <footer>
     <hr id="footerHR" class="my-4">
+
+      <ul>
+        <a href="https://www.allaboutbirds.org/building-skills-the-4-keys-to-bird-identification/" target=_blank class=bottomLinks>Learn to ID Birds at All About Birds.com</a>
+        <a href="https://www.linkedin.com/in/samantha-fluke-06199979/" target=_blank class=bottomLinks>View my LinkedIn Profile</a>
+        <a href="https://imgur.com/a/1mzdCvh" target=_blank class=bottomLinks>View More of My Wildlife Photos</a>
+      </ul>
     <p> &copy All photos by Samantha Fluke</p>
   </footer>
 
@@ -114,6 +111,11 @@
   <script type='text/javascript' src="js\app.js"></script>
 
   <audio id="sospCall" src="audio/sosp.ogg" type="audio/ogg;"/>
+  <audio id="yewaCall" src="audio/yewa.ogg" type="audio/ogg;"/>
+  <audio id="grheCall" src="audio/grhe.ogg" type="audio/ogg;"/>
+  <audio id="killCall" src="audio/kill.ogg" type="audio/ogg;"/>
+  <audio id="pbgrCall" src="audio/pbgr.ogg" type="audio/ogg;"/>
+  <audio id="modoCall" src="audio/modo.ogg" type="audio/ogg;"/>
 
 </body>
 
