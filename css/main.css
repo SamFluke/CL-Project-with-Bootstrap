@@ -78,13 +78,21 @@ p{
 }
 
 .card-body{
-  justify-content: center;
+  align-content: center;
   }
 
 .audioButton {
-  align-self: flex-end;
-  box-shadow: 3px 3px black;
-  font-weight: bold;
+  border-color: gray;
+  border-width: 2px;
+  background: url("../img/audio.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  padding-left: 3em;
+  margin-top: -2em;
 }
 
 h4{
@@ -130,9 +138,7 @@ h3{
   .card, img{
     max-width: 80vw;
   }
-  .jumbotron{
-    /*Make the jumbotron take up less space in small screen */
-  }
+
   .wrapper{
     grid-template-columns: repeat(1, 1fr);
   }
