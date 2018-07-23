@@ -3,7 +3,7 @@
   color: black;
   background-image: url("../img/HOFI.JPG");
   background-size: 100%;
-  background-position: bottom;
+  background-position: top;
   border-bottom-style: solid;
   border-color: black;
   border-width: 3px;
@@ -15,7 +15,7 @@ h1{
   justify-content: flex-start;
   font-weight: bold;
   font-family: 'Oxygen', sans-serif;
-  text-shadow: 2px 2px white;
+  text-shadow: 1px 1px white;
 }
 
 .lead{
